@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Agenda de Contatos</h1>
+        </header>
+        <form id="form-contatos">
+            <input type="text" id="nome-contato" required placeholder="Nome" />
+            <input type="number" id="tel-contato" required placeholder="Tel." />
+            <button type="submit" onclick="">Adicionar +</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>
+                        Nome do Contato
+                    </th>
+                    <th>
+                        Telefone/Celular
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Contato</td>
+                    <td>Telefone</td>
+                </tr>
+            </tbody>
+                <tfoot>
+                <td></td>
+                    <td></td>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+    
+</body>
+</html>
+
+<!--@corDeFundo: blue;
+@corDoTexto: black;
+
+body {
+    background-color: @corDeFundo;
+    color:@corDoTexto;
+}
+
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(199, 231, 241);
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 36px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color:blue
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+form input {
+    font-size: 18px;
+    background-color: rgb(232, 236, 236);
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+
+form button {
+    background-color: rgb(91, 132, 185);
+    color: rgb(148, 201, 248);
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid black;
+    padding: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+table td img {
+    height: 15px;
+}
+*/-->>
